@@ -160,3 +160,23 @@ nav a:hover {
 nav.active a {
   color: var(--branding-color);
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer.email-link:hoover {
+  color: var(--branding-color);
+}
+
+footer.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h4 {
+  font-size: 48px;
+}
